@@ -44,10 +44,10 @@ export default function Navbar() {
     >
       {/* Логотип */}
       <Link to="/" onClick={close} className="flex items-center gap-2 sm:gap-3 shrink-0">
-        <img src={logoMark} alt="Ebu.Gubkin" className="w-10 h-10 sm:w-12 sm:h-12 object-contain drop-shadow-[0_6px_14px_rgba(0,0,0,.4)]" />
+        <img src={logoMark} alt="bu.Gubkin" className="w-10 h-10 sm:w-12 sm:h-12 object-contain drop-shadow-[0_6px_14px_rgba(0,0,0,.4)]" />
         <div className="leading-none">
           <span className="font-bold text-[17px] sm:text-[21px] tracking-[-.5px] text-ink">
-            Ebu<span className="bg-gradient-to-r from-mint to-lav bg-clip-text text-transparent font-bold">.Gubkin</span>
+            bu<span className="bg-gradient-to-r from-mint to-lav bg-clip-text text-transparent font-bold">.Gubkin</span>
           </span>
           <span className="block text-[9px] sm:text-[10px] tracking-[1.5px] sm:tracking-[2px] text-subtle font-normal mt-1">ДЛЯ СТУДЕНТОВ</span>
         </div>
